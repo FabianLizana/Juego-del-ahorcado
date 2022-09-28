@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <header>
+      <a href="https://app.aluracursos.com/dashboard"><img src="https://instagram.fscl15-1.fna.fbcdn.net/v/t51.2885-15/308753542_1454438645077278_1006066578943864392_n.jpg?stp=dst-jpg_e15_s480x480&_nc_ht=instagram.fscl15-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=MJsi510BooEAX-0oAMn&edm=ABJHkxYAAAAA&ccb=7-5&ig_cache_key=MjkzNTk3NTM2NjI4OTkyOTUyNA%3D%3D.2-ccb7-5&oh=00_AT-H7Enccu-NQ1ANUIDTTGf5PYNIE57WMBvtPaUp38cF2A&oe=633975BD&_nc_sid=fa978c" 
+        alt="Logo Alura"></a>
+    </header>
+  <main>
+    <textarea class="nuevaPalabra" placeholder="Ingrese una palabra"></textarea>
+      <section class="botonesMenu">
+        <button class="iniciar" onclick="btnIniciar()">Iniciar juego</button>
+        <button class="agregar" onclick="btnAgregar()">Agregar nueva palabra</button>
+      </section>
+
+      <section class="botonesAgregar">
+        <button class="guardar" onclick="btnGuardar()">Guardar y empezar</button>
+        <button class="cancelar" onclick="btnCancelar()">Cancelar</button>
+      </section>
+
+      <section class="juego">
+        <div class="lienzo"><canvas width="1200" height="800" ></canvas></div>
+          <div class="botonesJuego">
+            <button class="nuevo" onclick="btnNuevo()">Nuevo juego</button>
+            <button class="desistir" onclick="btnDesistir()">Desistir</button>
+          </div>
+      </section>
+  </main>
+
+  <footer class="footer">
+  <h2 class="fotter-texto">Hecho por Fabian Andres Lizana Leyton</h2>
+    <p class="container-link">
+       <a class="link" target="_blank" href="https://www.linkedin.com/in/fabian-andres-lizana-leyton-307119247/">Linkedin</a>
+    </p>
+    <p class="container-link">
+      <a class="link" target="_blank" href="https://github.com/FabianLizana">Github</a>
+    </p>
+    <p class="container-link">
+      <a class="link" target="_blank" href="https://codepen.io/fabian-andres-lizana-leyton">Codepen</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
