@@ -176,3 +176,90 @@ canvas {
 .link:hover{
   font-size: 50px; 
 }
+
+/*----comienzo de @media ----*/
+@media (360px <= width <= 640px){
+img {
+  width: 100px;
+  position: absolute;
+  top: -20px;
+  left: -32px;
+}
+
+.juego {
+  background-color: #fbfbfb00;
+  border: 1px solid #12111100;
+}
+
+canvas {
+  width: 515px;
+  margin-left: -12px;
+}
+
+.nuevaPalabra {
+  width: 323px;
+}
+
+.nuevo {
+  width: 137px;
+}
+
+.desistir {
+  width: 137px;
+}
+
+.footer {
+  margin-top: 670px;
+}
+
+.footer h2 {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.container-link {
+  margin-top: 25px;
+}
+
+.link {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.link:hover{
+  font-size: 16px; 
+}
+
+}
+/*----comienzo de @media ----*/
+@media (641px <= width <= 900px){
+canvas {
+  width: 773px;
+  margin-top: 79px;
+}
+
+
+
+
+.footer {
+  margin-top: 771px;
+}
+
+.footer h2 {
+  margin-left: 9px;
+}
+
+.container-link {
+  margin-top: 55px;
+  margin-left: 3%;
+}
+
+.link {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.link:hover{
+  font-size: 23px; 
+}
+}
